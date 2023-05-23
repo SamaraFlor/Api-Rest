@@ -1,0 +1,3 @@
+Axios é um client HTTP baseado em promessa para node.jse o navegador. 
+É isomórfico (= pode ser executado no navegador e nodejs com a mesma base de código). 
+No lado do servidor, ele usa o httpmódulo node.js nativo, enquanto no cliente (navegador) usa XMLHttpRequests.

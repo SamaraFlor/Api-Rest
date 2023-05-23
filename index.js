@@ -1,7 +1,9 @@
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
+const cors = require("cors");
 
+app.use(cors());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
@@ -10,13 +12,13 @@ var DB = {
     games: [
         {
             id: 23,
-            title: "Call of duty MW",
+            title: "Super Mario",
             year: 2019,
             price: 60
         },
         {
             id: 65,
-            title: "Sea of thieves",
+            title: "Free fire",
             year: 2018,
             price: 40
         },
